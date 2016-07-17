@@ -39,7 +39,7 @@ body {
 #container {
   width: 100%;
   margin:0;
-  height: 500px;
+/*  height: 1200px;*/
 }
 
 header {
@@ -50,4 +50,8 @@ header {
   height:1200px;
   width:100%;
 
+}
+
+#cal {
+  float:center;
 }
