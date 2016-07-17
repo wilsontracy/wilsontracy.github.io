@@ -1,0 +1,53 @@
+/*Matter Studio logo intrim*/
+
+* {
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/*.alignright {
+  float: right;
+  padding: 0; 
+}
+
+.alignleft {
+  float: left;
+  padding: 0; 
+}
+*/
+body {
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+}
+
+#container {
+  width: 100%;
+  margin:0;
+  height: 500px;
+}
+
+header {
+  background: url(../images/savethedate.svg) no-repeat center top rgb(255,255,255);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  height:1200px;
+  width:100%;
+
+}
