@@ -1,11 +1,54 @@
 
 
+
 * {
      -moz-box-sizing: border-box; 
      -webkit-box-sizing: border-box; 
      box-sizing: border-box; 
 }
 
+h1 {
+  display:inline;
+  font-size:55px;
+  line-height:1.09em;
+  font-family: 'Pinyon Script', cursive;
+}
+
+h2 {
+  display:inline;
+  font-size: 40px;
+  line-height:1.09em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  display:inline;
+  font-size: 15px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  text-align:left;
+  font-family: 'Times New Roman', Times New Roman, Times, Georgia, serif;
+  font-size: 45px;
+  line-height:1.09em;
+  margin: 0; 
+}
+
+input {
+  margin-top:-5px;
+  padding:0px;
+}
+
+/*
+input[type=checkbox] {
+      /* All browsers except webkit*/
+      transform: scale(5);
+
+      /* Webkit browsers*/
+      -webkit-transform: scale(5);
+    }
+*/
 
 .clearfix:after {
      content: ".";
@@ -20,29 +63,30 @@
   clear: both;
 }
 
-/*.alignright {
-  float: right;
-  padding: 0; 
-}
-
-.alignleft {
-  float: left;
-  padding: 0; 
-}
-*/
-body {
-  text-align:center;
-  font-family: 'Open Sans', sans-serif;
-  margin:0;
-}
 
 #container {
-  width: 100%;
+/*  width: 100%;*/
   margin:0;
+/*  display: flex;*/
 /*  height: 1200px;*/
 }
 
-header {
+main {
+/*  display:flex;*/
+/*  justify-content:space-between;
+  flex-wrap:wrap;*/
+}
+
+
+
+/*aside {
+  background-color:#000000;
+  float:right;
+  width:50%;
+  visibility:hidden!important;
+}*/
+
+/*header {
   background: url(../images/savethedate.svg) no-repeat center top rgb(255,255,255);
   background-repeat:no-repeat;
   background-position:center;
@@ -51,7 +95,31 @@ header {
   width:100%;
 
 }
+*/
 
-#cal {
-  float:center;
+article {
+  padding:5px;
 }
+
+
+
+@media screen and (min-width:800px) and (max-width:2000px){
+  main {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  padding:0;
+  }
+
+  article {
+/*  background-color: #ff00ff;
+/*  float:left;*/
+  width:50%;
+  padding:5px;
+}
+
+
+
+}
+
+
