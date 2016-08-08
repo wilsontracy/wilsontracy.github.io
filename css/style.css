@@ -93,7 +93,7 @@ main {
   visibility:hidden!important;
 }*/
 
-/*header {
+header {
   background: url(../images/savethedate.svg) no-repeat center top rgb(255,255,255);
   background-repeat:no-repeat;
   background-position:center;
@@ -102,7 +102,7 @@ main {
   width:100%;
 
 }
-*/
+
 
 article {
   padding:5px;
