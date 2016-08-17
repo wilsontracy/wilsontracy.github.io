@@ -22,6 +22,8 @@ h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+
+
 h3 {
   display:inline;
   font-size: 20px;
@@ -39,8 +41,8 @@ h4 {
 body {
   text-align:left;
   font-family: 'Times New Roman', Times New Roman, Times, Georgia, serif;
-  font-size: 45px;
-  line-height:1.09em;
+  font-size: 49px;
+  line-height:1.17em;
   margin: 0; 
 }
 
@@ -69,7 +71,8 @@ a:active {
 }
 
 sup {
-  font-size:0.7em; 
+  font-size:0.5em; 
+  line-height:1em;
   vertical-align:super;}
 
 .form {
@@ -117,6 +120,18 @@ main {
 
 img {
   float:right;
+}
+
+.img23 {
+  padding-right:30px;
+}
+
+.img2{
+  padding:15px;
+}
+
+.img18{
+  padding-right:15%;
 }
 
 .diptych {
