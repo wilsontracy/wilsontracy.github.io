@@ -88,5 +88,101 @@
 	</footer> -->
 
 </div>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+<img src="./images/15.jpg" width="33%">
+Finally, our <h1>Registry</h1> is <a href="https://www.amazon.com/wedding/share/wilsonandtracy"><h2>here</h2> </a>, through Amazon. Red envelopes are also welcome!
+<br><img src="./images/26.jpg" width="25%">
+<br>
+<br><img src="./images/9.jpg" width="20%">
+
+
+Can't wait to see everyone.<br>
+&horbar;Tracy and Wilson<br><br>
+<br><br>
+
+P.S. <br>
+
+For our out of town guests, here are some tips on travel and accomodations!<br><br>
+
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flying to JFK</h2><br>
+Taxi: $52 flat rate + tolls <br>
+Subway: Take the Airtrain to Howard Beach station, and then take the A train to Manhattan for around $7.75 <br>
+Train: Take the Airtrain to Jamaica station, and take the LIRR to Penn Station for $15.<br><br>
+
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flying to Laguardia</h2><br>
+Taxi: Around $50<br><br>
+
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flying to Newark</h2><br>
+<div class="letter"><img src="./images/14.jpg" width="43%">
+
+Taxi: Around $70 to Manhattan<br>
+Train: Take the Airtrain to NJ Transit, NJ Transit to New York Penn Station, ~$20<br>
+<br>
+Uber is also a popular option for all of the above (and for getting around in the city).
+<br><br>
+
+<!-- <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Staying in New York</h2>
+<br>
+We’ve arranged a group rate of $207/night at <a href="https://www.google.com/maps/place/DoubleTree+by+Hilton+New+York+City+Financial+District/@40.7039468,-74.0145447,17z/data=!4m7!3m6!1s0x89c25a13f622f7d1:0xcdb7c0d4857d5425!5m1!1s2016-10-01!8m2!3d40.7039468!4d-74.012356">Doubletree By Hilton Financial District.</a> Visit their website <a href="http://doubletree3.hilton.com/en/hotels/new-york/doubletree-by-hilton-hotel-new-york-city-financial-district-NYCBPDT/index.html"><h2>here</h2></a> to book your stay. </h4><br>
+<br> -->
+P.P.S.
+<br>Reminder to Canadian guests to purchase some travel data before your trip! 
+
+
+			</main>
+		</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script> 
+
+	$('form').on('submit', function() {
+		event.preventDefault();
+		console.log('aeihalwieu');
+		    // Get the form instance
+
+		    //when we submit this form, the event is a form--and it's putting the whole form in an object
+        var $form = $(event.currentTarget);
+
+
+        console.log($('.form-name').val());
+        console.log($('.form-email').val());
+        console.log($('.form-place').val());
+
+        var formName= $('.form-name').val();
+
+        if(formName !='') {
+
+		//Network > XHR to see what ajax is doing
+		//input type to upload a file is <input type="file">
+       
+
+        //This is the fancy stuff
+        //-------------------------------
+        // Use Ajax to submit form data
+        var url = 'https://docs.google.com/forms/d/e/1FAIpQLSf6B6F2tD0haTvWc6ZwLrV_3KIocWwrD1fiiIBlHOXOJkx8Gw/formResponse';
+
+        var data = $form.serialize();
+
+        $.post(url, $form.serialize(), function() {
+
+        }).always(function() {
+            console.warn('Data sent to Google.');
+            $('form').append('<div><h2>Thank you! See you soon.</h2></div>');
+        });
+
+    	} else {
+    		alert('please fill entire form');
+    	}
+
+
+	});
+
+
+</script>
+
+	</body>
+</html>
+>>>>>>> origin/master
